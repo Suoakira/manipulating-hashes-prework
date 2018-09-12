@@ -26,14 +26,15 @@ def first_challenge
           if detail == :favorite_icecream_flavors
             values.delete_if do |icecream|
               icecream == "strawberry"
-              
+            end
+          end    
         binding.pry
       
       end
         
 
     end
-  end
+  
 
   #remember to return your newly altered contacts hash!
   contacts
